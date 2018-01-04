@@ -1,0 +1,19 @@
+.header{
+    width:100%;
+    background-color:#fff;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.escudo{
+    width:60px;
+}
+.institucion{
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+}
+.fecha{
+    display: block;
+    font-weight: normal;
+    font-size: 10px;
+}

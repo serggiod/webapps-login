@@ -1,0 +1,20 @@
+<br/>
+<div class="card card-outline-info w-50 mx-auto" [ngClass]="display">
+  <div class="card-header bg-info text-white">¿Esta seguro que desea salir del sistema?</div>
+  <div class="card-block">
+      <div class="input-group">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          (click)="cancelar()">
+            Cancelar
+        </button>
+        <button
+          type="button"
+          class="btn btn-info"
+          (click)="aceptar()">
+            Aceptar
+        </button>
+      </div>
+  </div>
+</div>
